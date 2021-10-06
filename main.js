@@ -15,7 +15,7 @@ var createScene = function() {
 	function create_car(scene){
         //Car Body Material 
         var bodyMaterial = new BABYLON.StandardMaterial("body_mat", scene);
-        bodyMaterial.diffuseColor = new BABYLON.Color3(1.0, 0.25, 0.25);
+        bodyMaterial.diffuseColor = new BABYLON.Color3(Math.random(1), Math.random(1), Math.random(1));
         bodyMaterial.backFaceCulling = false;
         
         //Array of points for trapezium side of car.

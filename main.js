@@ -5,10 +5,10 @@ var createScene = function () {
 
     // camera
     var camera = new BABYLON.ArcRotateCamera("camera1", 0, 0, 0, new BABYLON.Vector3(0, 0, 0), scene);
-    camera.setPosition(new BABYLON.Vector3(-12, 25, -84));
+    camera.setPosition(new BABYLON.Vector3(0, 125, 120));
     camera.attachControl(canvas, true);
 
-    // lights
+    // iluminação
     var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(1, 0.5, 0), scene);
 
     /*-----------------------Corpo do carro------------------------------------------*/
